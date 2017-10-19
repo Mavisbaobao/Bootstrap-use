@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boostrap 基本模板</title>
+    <!-- Bootatrap 基本模板 -->
+    <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .container{
+          border-bottom: 1px solid #222;
+          border-top:1px solid #333;
+          padding:33px 0;
+          font-size:16px;
+          width: 80%;
+      } 
+      .container i{
+          margin-right:8px; 
+
+      }
+      .container  span {
+          color:#f00;
+      }
+    </style>
+</head>
+<body>
+    
+    <!-- 。container用于宽度布局 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pull-left">
+                    <i class="glyphicon glyphicon-time"></i>现在有273人在排队,累计预约交易成功7571次.什么是预约投标?<span>立即预约</span>
+                </div>
+                <div class="pull-right hidden-xs hidden-sm">
+                    <i class="glyphicon glyphicon-camera"></i>微金所企业宣传片
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+
+    <!-- 引入jquery库 -->
+    <script src="./js/jQuery.min.js"></script>
+
+    <!-- 引入bootstrap。js各个插件库 -->
+    <script src="./lib/js/bootstrap.min.js"></script>
+</body>
+</html>

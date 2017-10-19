@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= -, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>boostrap 微金所顶部</title>
+    <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+     <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .topnav{
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid #333;
+            text-align: center;
+           
+        }
+        .topnav  a{
+            color:#444;
+        }
+        div[class^="col"]{
+             border-right:1px solid #333;
+        }
+        div[class^="col"]:last-child{
+            border: none;
+        }
+        .topnav .signup{
+            padding: 3px 3px;
+
+            background-color: rgb(243, 33, 33);
+            color:#fff;
+            /* 透明的颜色 */
+            border-color:transparent;
+            
+        }
+        .btn-default.signup:hover {
+      background-color: rgb(243, 33, 33);
+      color: #fff;
+      border-color: transparent;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 ">
+                    <i class="glyphicon glyphicon-phone"></i>
+                    <a href="javascript:;">手机微金所</a>
+                    <i class="glyphicon glyphicon-menu-down"></i>
+                </div>
+                <div class="col-md-5 ">
+                        <i class="glyphicon glyphicon-phone-alt"></i>
+                        <a href="javascript:;">4006-89-4006（服务时间：9:00-21:00)</a>
+                       
+                </div>
+                <div class="col-md-2 ">
+                        <a href="javascript:;">常见问题</a>
+                        <a href="javascript:;">财富登陆</a>
+                      
+                </div>
+                <div class="col-md-3 ">
+                      
+                        <a class="btn btn-default signup" href="javascript:;">免费注册</a>
+                        <a href="javascript:;">登录</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="./js/jQuery.min.js"></script>
+    <script src="./lib/js/bootstrap.min.js"></script>
+</body>
+</html>

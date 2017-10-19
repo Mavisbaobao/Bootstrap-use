@@ -1,0 +1,10 @@
+fastclick:
+    两个盒子叠加，上面的盒子是tap事件，下面的盒子是click事件
+    点击tap就会触发下面的click事件。
+    这就是点透现象。
+    解决办法：
+
+        fastclick解决click的300毫秒
+        第二个是解决点透；
+         FastClick.attach(document.body);
+        fastclick。js插件。
